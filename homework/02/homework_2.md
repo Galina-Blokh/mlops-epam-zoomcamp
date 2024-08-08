@@ -14,6 +14,7 @@ Once you installed the package, run the command `mlflow --version` and check the
 
 What's the version that you have?
 
+mlflow, version 2.15.1
 
 
 ## Q2. Download and preprocess the data
@@ -40,10 +41,7 @@ Tip: go to `02-experiment-tracking/homework/` folder before executing the comman
 
 How many files were saved to `OUTPUT_FOLDER`?
 
-* 1
-* 3
 * 4
-* 7
 
 
 ## Q3. Train a model with autolog
@@ -67,9 +65,6 @@ Tip 2: don't modify the hyperparameters of the model to make sure that the train
 What is the value of the `min_samples_split` parameter:
 
 * 2
-* 4
-* 8
-* 10
 
 
 ## Q4. Launch the tracking server locally
@@ -86,9 +81,7 @@ You should keep the tracking server running to work on the next two exercises th
 In addition to `backend-store-uri`, what else do you need to pass to properly configure the server?
 
 * `default-artifact-root`
-* `serve-artifacts`
-* `artifacts-only`
-* `artifacts-destination`
+
 
 
 ## Q5. Tune model hyperparameters
@@ -109,10 +102,8 @@ The idea is to just log the information that you need to answer the question bel
 
 What's the best validation RMSE that you got?
 
-* 4.817
 * 5.335
-* 5.818
-* 6.336
+
 
 
 ## Q6. Promote the best model to the model registry
@@ -129,10 +120,8 @@ Tip 2: to register the model you can use the method `mlflow.register_model` and 
 
 What is the test RMSE of the best model?
 
-* 5.060
 * 5.567
-* 6.061
-* 6.568
+
 
 
 ## Submit the results
