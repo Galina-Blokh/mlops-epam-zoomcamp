@@ -27,7 +27,7 @@ How many lines are in the created `metadata.yaml` file?
 
 - 55
 
-![Alt text](Screenshot%202024-08-17%20at%2018.26.51)
+![Alt text](Screenshot%202024-08-17%20at%2018.26.51.png)
 
 
 ## Question 3. Creating a pipeline
