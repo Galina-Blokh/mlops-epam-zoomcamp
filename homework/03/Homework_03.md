@@ -157,7 +157,7 @@ Find the logged model, and find MLModel file. What's the size of the model? (`mo
 
 > Note: typically we do last two steps in one code block.
 
-![Alt text](images/Screenshot%202024-08-17%20at%2018.24.50.png)
+![Alt text](images/Screenshot%202024-08-17%20at%2022.50.58.png)
 
 
 ## Submit the results
