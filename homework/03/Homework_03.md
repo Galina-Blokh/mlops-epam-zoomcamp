@@ -17,7 +17,7 @@ What's the version of Mage we run?
 
 - **v0.9.73**
 
-![Alt text](Screenshot%202024-08-17%20at%2018.24.50.png)
+![Alt text](images/Screenshot%202024-08-17%20at%2018.24.50.png)
 
 ## Question 2. Creating a project
 
@@ -27,7 +27,7 @@ How many lines are in the created `metadata.yaml` file?
 
 - 55
 
-![Alt text](Screenshot%202024-08-17%20at%2018.26.51.png)
+![Alt text](images/Screenshot%202024-08-17%20at%2018.26.51.png)
 
 
 ## Question 3. Creating a pipeline
@@ -40,7 +40,7 @@ How many records did we load?
 
 - 3,403,766
 
-![Alt text](Screenshot%202024-08-17%20at%2018.25.07.png)
+![Alt text](images/Screenshot%202024-08-17%20at%2018.25.07.png)
 
 ## Question 4. Data preparation
 
@@ -71,7 +71,9 @@ Let's adjust it and apply to the data we loaded in question 3.
 
 What's the size of the result? 
 
-- 3,316,216 
+- 3,316,216
+
+![Alt text](images/Screenshot%202024-08-17%20at%2018.25.22.png)
 
 ## Question 5. Train a model
 
@@ -88,6 +90,8 @@ What's the intercept of the model?
 Hint: print the `intercept_` field in the code block
 
 - 24.77
+
+![Alt text](images/Screenshot%202024-08-17%20at%2018.26.18.png)
 
 ## Question 6. Register the model 
 
@@ -148,6 +152,8 @@ If you used the suggested docker-compose snippet, mlflow should be accessible at
 Find the logged model, and find MLModel file. What's the size of the model? (`model_size_bytes` field):
 
 * 4,534
+
+![Alt text](images/Screenshot%202024-08-17%20at%2020.42.11.png)
 
 > Note: typically we do last two steps in one code block.
 
