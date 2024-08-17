@@ -29,6 +29,7 @@ How many lines are in the created `metadata.yaml` file?
 
 ![Alt text](Screenshot%202024-08-17%20at%2018.26.51)
 
+
 ## Question 3. Creating a pipeline
 
 Let's create an ingestion code block.
@@ -38,6 +39,8 @@ In this block, we will read the March 2023 Yellow taxi trips data.
 How many records did we load? 
 
 - 3,403,766
+
+![Alt text](Screenshot%202024-08-17%20at%2018.25.07.png)
 
 ## Question 4. Data preparation
 
