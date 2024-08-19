@@ -136,7 +136,8 @@ file, we upload it to the cloud storage.
 
 Modify your code to upload the parquet file to S3/GCS/etc.
 
-Added a section with s3 upload in python_script.py
+Added a section with s3 upload in python_script.py starting line 53.
+aws_cred.txt"  is a file that is not in this repo. Besides all, credentials were temporary, so create your own file with your own credentials.
 
 ## Bonus: Use Mage for batch inference
 
