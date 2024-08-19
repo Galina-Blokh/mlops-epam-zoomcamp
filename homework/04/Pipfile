@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pip_conf_index_global"
+
+[packages]
+scikit-learn = "==1.5.1"
+pandas = "*"
+pyarrow = "*"
+aws = "*"
+boto3 = "*"
+urllib3 = "*"
+
+[dev-packages]
+scikit-learn = "==1.5.1"
+pandas = "*"
+pyarrow = "*"
+
+[requires]
+python_version = "3.9"
