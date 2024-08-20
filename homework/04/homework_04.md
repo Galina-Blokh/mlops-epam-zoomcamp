@@ -150,7 +150,7 @@ Modify your code to upload the parquet file to S3/GCS/etc.
 1. Added a section with s3 upload in python_script.py starting line 53.
        
 ```python 
-Line 53 # Bonus: upload the result to the cloud (Not graded)
+#Line 53:  Bonus: upload the result to the cloud (Not graded)
 f = open("aws_cred.txt", "r")
 lines = f.readlines()
 ACCESS_SECRET_KEY = lines[0].strip()
@@ -173,7 +173,7 @@ s3.Bucket(BUCKET_NAME).put_object(Key=output_file,
 print("status OK")
 ```
         
-2. File aws_cred.txt" is not in this repo. 
+2. File `"aws_cred.txt"` is not in this repo. 
    <br>It contains temporary credentials, you need to create your file with your credentials 
    to make the Doker image work correctly.
    
