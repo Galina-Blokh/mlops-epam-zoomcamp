@@ -83,7 +83,8 @@ Run the script for April 2023.
 What's the mean predicted duration? 
 
 * 14.29
-
+* Changed the file name to "python_script.py"
+* Changed code architecture and removed some not needed lines 
 
 Hint: just add a print statement to your script.
 
@@ -136,8 +137,32 @@ file, we upload it to the cloud storage.
 
 Modify your code to upload the parquet file to S3/GCS/etc.
 
-Added a section with s3 upload in python_script.py starting line 53.
-aws_cred.txt"  is a file that is not in this repo. Besides all, credentials were temporary, so create your own file with your own credentials.
+    1. Added a section with s3 upload in python_script.py starting line 53.
+        Line 53 # Bonus: upload the result to the cloud (Not graded)
+        f = open("aws_cred.txt", "r")
+        lines = f.readlines()
+        ACCESS_SECRET_KEY = lines[0].strip()
+        ACCESS_KEY_ID = lines[1].strip()
+        BUCKET_NAME = lines[2].strip()
+        f.close()
+        print("connect to s3 bucket")
+        
+        # S3 Connect
+        s3 = boto3.resource('s3',
+                            aws_access_key_id=ACCESS_KEY_ID,
+                            aws_secret_access_key=ACCESS_SECRET_KEY)
+        
+        s3.Bucket(BUCKET_NAME).put_object(Key=output_file,
+                                          Body=json.dumps(df_result.to_parquet(output_file,
+                                                                               engine='pyarrow',
+                                                                               compression=None,
+                                                                               index=False)),
+                                          ACL='public-read')
+        print("status OK")
+        
+    2. File aws_cred.txt" is not in this repo. 
+       It contains temporary credentials, you need to create your file with your credentials 
+       to make the Doker image work correctly.
 
 ## Bonus: Use Mage for batch inference
 
