@@ -17,6 +17,8 @@ Run this notebook for the March 2023 data.
 What's the standard deviation of the predicted duration for this dataset?
 
 * 6.24
+  
+![Alt text](images/Screenshot%202024-08-19%20at%2015.59.08.png)
 
 
 ## Q2. Preparing the output
@@ -45,6 +47,8 @@ df_result.to_parquet(
 What's the size of the output file?
 
 * 66M
+  
+![Alt text](images/Screenshot%202024-08-19%20at%2015.59.26.png)
 
 __Note:__ Make sure you use the snippet above for saving the file. It should contain only these two columns. For this question, don't change the
 dtypes of the columns and use `pyarrow`, not `fastparquet`. 
@@ -57,6 +61,7 @@ Now let's turn the notebook into a script.
 Which command you need to execute for that?
 
 `!jupyter nbconvert --to script starter.ipynb`
+
 
 ## Q4. Virtual environment
 
@@ -73,6 +78,8 @@ What's the first hash for the Scikit-Learn dependency?
 
 `sha256:0828673c5b520e879f2af6a9e99eee0eefea69a2188be1ca68a6121b809055c1`
 
+![Alt text](images/Screenshot%202024-08-19%20at%2017.19.50.png)
+
 ## Q5. Parametrize the script
 
 Let's now make the script configurable via CLI. We'll create two 
@@ -87,6 +94,7 @@ What's the mean predicted duration?
 * Changed code architecture and removed some not needed lines 
 
 Hint: just add a print statement to your script.
+![Alt text](images/Screenshot%202024-08-19%20at%2018.03.21.png)
 
 
 ## Q6. Docker container 
@@ -127,7 +135,7 @@ for May 2023?
 
 * 0.19
 
-
+![Alt text](images/Screenshot%202024-08-19%20at%2018.47.03.png)
 
 ## Bonus: upload the result to the cloud (Not graded)
 
@@ -163,6 +171,8 @@ Modify your code to upload the parquet file to S3/GCS/etc.
     2. File aws_cred.txt" is not in this repo. 
        It contains temporary credentials, you need to create your file with your credentials 
        to make the Doker image work correctly.
+       
+![Alt text](images/Screenshot%202024-08-19%20at%2022.35.20.png)
 
 ## Bonus: Use Mage for batch inference
 
