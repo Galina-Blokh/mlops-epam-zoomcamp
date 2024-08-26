@@ -29,7 +29,6 @@ What metric did you choose?
 `ColumnQuantileMetric`
 
 ![Alt text](images/Screenshot%202024-08-26%20at%2018.56.59.png)
-![Alt text](images/Screenshot%202024-08-26%20at%2014.42.02.png)
 
 ## Q3. Monitoring
 
