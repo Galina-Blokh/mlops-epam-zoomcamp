@@ -6,7 +6,7 @@ pyarrow
 psycopg
 psycopg_binary
 evidently 
-pandas
+pandas==2.2.1
 numpy
 scikit-learn
 jupyter
