@@ -24,7 +24,12 @@ Let's expand the number of data quality metrics we’d like to monitor! Please a
 Hint: explore evidently metric `ColumnQuantileMetric` (from `evidently.metrics import ColumnQuantileMetric`) 
 
 What metric did you choose?
+
+
 `ColumnQuantileMetric`
+
+![Alt text](images/Screenshot%202024-08-26%20at%2018.56.59.png)
+![Alt text](images/Screenshot%202024-08-26%20at%2014.42.02.png)
 
 ## Q3. Monitoring
 
@@ -32,7 +37,10 @@ Let’s start monitoring. Run expanded monitoring for a new batch of data (March
 
 What is the maximum value of metric `quantile = 0.5` on the `"fare_amount"` column during March 2024 (calculated daily)?
 
-* 14.2 # this value we have on May 2024 and For the March 2024 the value is 13.5
+* 14.2 
+
+![Alt text](images/Screenshot%202024-08-26%20at%2018.43.26.png)
+
 
 
 
@@ -43,6 +51,8 @@ Finally, let’s add panels with new added metrics to the dashboard. After we cu
 Where to place a dashboard config file?
 
 * `project_folder/dashboards`  (05-monitoring/dashboards)
+
+![Alt text](images/Screenshot%202024-08-26%20at%2019.03.43.png)
 
 
 
