@@ -26,7 +26,7 @@ Hint: explore evidently metric `ColumnQuantileMetric` (from `evidently.metrics i
 What metric did you choose?
 
 
-`ColumnQuantileMetric`
+`ColumnQuantileMetric` and `ColumnDriftMetric`
 
 ![Alt text](images/Screenshot%202024-08-26%20at%2018.56.59.png)
 
