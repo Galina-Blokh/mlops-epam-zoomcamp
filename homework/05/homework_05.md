@@ -9,6 +9,7 @@ The goal of this homework is to familiarize users with monitoring for ML batch s
 Start with `baseline_model_nyc_taxi_data.ipynb`. Download the March 2024 Green Taxi data. We will use this data to simulate a production usage of a taxi trip duration prediction service.
 
 What is the shape of the downloaded data? How many rows are there?
+![Alt text](images/Screenshot%202024-08-19%20at%2015.59.08.png)
 
 * 57457
 
