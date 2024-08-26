@@ -28,7 +28,7 @@ What metric did you choose?
 
 `ColumnQuantileMetric` and `ColumnDriftMetric`
 
-![Alt text](images/Screenshot%202024-08-26%20at%2018.56.59.png)
+![Alt text](images/Screenshot%202024-08-26%20at%2020.54.26.png)
 
 ## Q3. Monitoring
 
