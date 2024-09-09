@@ -26,15 +26,16 @@ def test_prepare_data():
 
     ]
     expected_df = pd.DataFrame(expected_data)
-    print('expected_df\n',expected_df)
+    print('expected_df\n', expected_df)
 
     # Select only the relevant columns for comparison
     processed_df = processed_df[['PULocationID', 'DOLocationID', 'duration']]
-    print("processed_df\n",processed_df)
+    print("processed_df\n", processed_df)
     pd.testing.assert_frame_equal(processed_df.reset_index(drop=True), expected_df.reset_index(drop=True))
+    return df
 
 
 # Run the test
 if __name__ == "__main__":
     test_prepare_data()
-
+    print('unittests are OK')
