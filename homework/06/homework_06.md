@@ -233,7 +233,7 @@ What's the size of the file?
 
 * 3620
 * 
-![Alt text](images/Screenshot%202024-09-09%20at%2012.35.46.png)
+![Alt text](images/Screenshot%202024-09-09%20at%2013.13.54.png)
 
 
 Note: it's important to use the code from the snippet for saving
