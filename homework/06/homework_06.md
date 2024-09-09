@@ -264,10 +264,9 @@ verify the result is correct.
 
 What's the sum of predicted durations for the test dataframe?
 
-* 13.08
 * 36.28
-* 69.28
-* 81.08
+
+![Alt text](images/Screenshot%202024-09-09%20at%2013.20.06.png)
 
 
 ## Running the test (ungraded)
