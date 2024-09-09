@@ -201,6 +201,8 @@ Let's modify our `read_data` function:
 - check if `S3_ENDPOINT_URL` is set, and if it is, use it for reading
 - otherwise use the usual way
 
+![Alt text](images/Screenshot%202024-09-09%20at%2011.38.32.png)
+
 
 ## Q5. Creating test data
 
