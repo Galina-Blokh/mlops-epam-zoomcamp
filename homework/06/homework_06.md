@@ -232,9 +232,9 @@ df_input.to_parquet(
 What's the size of the file?
 
 * 3620
-* 23620
-* 43620
-* 63620
+* 
+![Alt text](images/Screenshot%202024-09-09%20at%2012.19.16.png)
+
 
 Note: it's important to use the code from the snippet for saving
 the file. Otherwise the size may be different depending on the OS,
