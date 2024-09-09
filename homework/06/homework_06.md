@@ -249,6 +249,8 @@ We can read from our localstack s3, but we also need to write to it.
 Create a function `save_data` which works similarly to `read_data`,
 but we use it for saving a dataframe. 
 
+![Alt text](images/Screenshot%202024-09-09%20at%2013.16.02.png)
+
 Let's run the `batch.py` script for January 2023 (the fake data
 we created in Q5). 
 
